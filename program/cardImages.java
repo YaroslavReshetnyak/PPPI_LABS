@@ -32,11 +32,7 @@ public final class CardImages
 	private static Image getCard( String pCode )
 	{
 		Image image = (Image) aCards.get( pCode );
-		if( image == null )
-		{
-			image = new Image(CardImages.class.getClassLoader().getResourceAsStream( IMAGE_LOCATION + pCode + IMAGE_SUFFIX ));
-			aCards.put( pCode, image );
-		}
+
 		return image;
 	}
 	
