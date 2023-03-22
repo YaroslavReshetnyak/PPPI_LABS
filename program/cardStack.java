@@ -1,8 +1,6 @@
 package ca.mcgill.cs.stg.solitaire.cards;
 
 import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
 
 /**
  * Represents a general-purpose stack of cards. New CardStack
